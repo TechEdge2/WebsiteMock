@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="Tech EDGE.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style type="text/css">body{min-height:100vh;background: linear-gradient(to top, #00a6ff, #ffda75);}</style>
+</head>
+<body>
+<marquee direction="right">Checkout</marquee>
+<hr>
+
+<form action="https://formspree.io/f/xrbryzqk" method="POST">
+    NAME:<input type="text" placeholder="Your Name" name="username"/><br>
+    Address:<input type="text" placeholder="Your Address" name="ADDRESS"/><br>
+    Phone:<input type="text" placeholder="Your Phone" name="Phone No."/><br>
+    Payment:<br>
+    UPI<input type="Radio" name="Payment" value="upi"/><br>
+    COD<input type="Radio" name="Payment" value="COD"/><br>
+    Credit<input type="Radio" name="Payment" value="Credit"/><br>
+    Debit<input type="Radio" name="Payment" value="Debit"/><br><BR>
+    
+    
+    
+    <label>
+    Your email:
+    <input type="email" name="email">
+    </label>
+    <br><br><label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label><br>
+
+  <button type="submit">Send</button>
+</form>
+</body>
+</html>
